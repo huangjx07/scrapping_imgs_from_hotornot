@@ -14,7 +14,7 @@ import time
 class Spider:
  
     def __init__(self):
-        self.siteURL = 'https://hotornot.com/dating/china/guangzhou/page-'
+        self.siteURL = 'https://hotornot.com/dating/china/kwantung/guangzhou/page-'
  
     def getPage(self,pageIndex):
         url = self.siteURL + str(pageIndex) +'/'
